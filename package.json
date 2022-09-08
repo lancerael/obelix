@@ -1,12 +1,13 @@
 {
-  "name": "pnpm-monorepo-workshop",
-  "version": "1.0.0",
-  "description": "Teaching resource",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+	"name": "pnpm-monorepo-workshop",
+	"version": "1.0.0",
+	"description": "Teaching resource",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"run:cars": "pnpm --filter cars run dev"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC"
 }
