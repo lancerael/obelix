@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { TextConfirm } from "@obelix/text-confirm"
+import { Button } from '@obelix/button'
 
 /*
   CreatedDate, Type, Key, ID
@@ -11,7 +12,7 @@ const Accounts = () => {
     <div>
       Key: {key}
       <div>
-				<TextInput value='key' updateValue={(value) => setKey(value)} />
+				<TextConfirm value='key' updateValue={(value) => setKey(value)} />
       </div>
       <Button onClick={() => {}}>
         Submit form
