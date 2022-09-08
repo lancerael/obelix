@@ -1,5 +1,5 @@
 {
-  "name": "users",
+  "name": "@obelix/users",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,8 +11,8 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "vf-button": "workspace:^1.0.0",
-    "vf-text-input": "workspace:^1.0.0"
+    "@obelix/button": "workspace:*",
+    "@obelix/text-input": "workspace:^1.0.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.17",

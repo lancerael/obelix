@@ -1,2 +1,2 @@
-# pnpm-monorepo-workshop
+# obelix
 Teaching resource

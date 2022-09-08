@@ -1,5 +1,5 @@
 {
-  "name": "cars",
+  "name": "@obelix/cars",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vf-button": "workspace:*",
+    "@obelix/button": "workspace:*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

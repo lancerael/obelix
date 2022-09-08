@@ -1,5 +1,5 @@
 {
-	"name": "vf-text-input",
+	"name": "@obelix/text-input",
 	"version": "1.0.0",
 	"description": "",
 	"main": "index.js",
