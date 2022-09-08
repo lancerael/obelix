@@ -4,8 +4,8 @@
 	"description": "Teaching resource",
 	"main": "index.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"run:cars": "pnpm --filter cars run dev"
+		"run:cars": "pnpm --filter cars run dev",
+		"run:users": "pnpm --filter users run dev"
 	},
 	"keywords": [],
 	"author": "",
