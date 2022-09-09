@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Button } from '@obelix/button'
+import Button from '@obelix/button'
 import { TextInput } from "@obelix/text-input"
 
 export const TextConfirm = ({ value, updateValue }) => {
@@ -20,7 +20,7 @@ export const TextConfirm = ({ value, updateValue }) => {
   return (
     <div>
       <TextInput value={textValue} onChange={({ target }) => setTextValue(target.value)}/>
-      <Button onClick={handleConfirm}>Confirm</Button>
+      <Button onClick={handleConfirm}>Validate</Button>
       <br/>
       {message}
     </div>

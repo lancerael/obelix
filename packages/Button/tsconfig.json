@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "module": "ESNext",
+    "moduleResolution": "nodenext",
+    "outDir": "./dist"
+  },
+  "files": ["src/Button.tsx"]
+}

@@ -5,9 +5,14 @@
 	"main": "index.js",
 	"scripts": {
 		"run:cars": "pnpm --filter cars run dev",
-		"run:users": "pnpm --filter users run dev"
+		"run:users": "pnpm --filter users run dev",
+    "run:accounts": "npx nx dev @obelix/accounts",
+    "build:accounts": "npx nx build @obelix/accounts"
 	},
 	"keywords": [],
 	"author": "",
-	"license": "ISC"
+	"license": "ISC",
+	"devDependencies": {
+		"nx": "^14.6.5"
+	}
 }

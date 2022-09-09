@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { TextConfirm } from "@obelix/text-confirm"
-import { Button } from '@obelix/button'
+import Button from '@obelix/button'
 
 /*
   CreatedDate, Type, Key, ID
@@ -10,7 +10,7 @@ const Accounts = () => {
   const [key, setKey] = useState('')
   return (
     <div>
-      Key: {key}
+      Keys: {key}
       <div>
 				<TextConfirm value={key} updateValue={(value) => setKey(value)} />
       </div>
