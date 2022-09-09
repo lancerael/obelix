@@ -1,4 +1,4 @@
-import { Button } from '@obelix/button'
+import Button from "@obelix/button"
 import { TextInput } from "@obelix/text-input"
 
 /*
@@ -6,16 +6,14 @@ import { TextInput } from "@obelix/text-input"
 */
 
 const Users = () => {
-  return (
-    <div>
-      <div>
+	return (
+		<div>
+			<div>
 				<TextInput value='' onChange={() => {}} />
-      </div>
-      <Button onClick={() => {}}>
-        Submit form
-      </Button>
-    </div>
-  )
+			</div>
+			<Button onClick={() => {}}>Submit form</Button>
+		</div>
+	)
 }
 
 export default Users
