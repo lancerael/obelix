@@ -1,10 +1,5 @@
 import React from "react"
 
-export const Button = ({ children, ...props }) => (
-	<button {...props}>
-		{children}
-		{"darknesss"}
-	</button>
-)
+export const Button = ({ children, ...props }) => <button {...props}>{children}</button>
 
 export default Button
