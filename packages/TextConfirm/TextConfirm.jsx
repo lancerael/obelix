@@ -20,6 +20,7 @@ export const TextConfirm = ({ value, updateValue }) => {
 	return (
 		<div>
 			<TextInput value={textValue} onChange={({ target }) => setTextValue(target.value)} />
+			<div>Lightness</div>
 			<Button onClick={handleConfirm}>Confirm</Button>
 			<br />
 			{message}
