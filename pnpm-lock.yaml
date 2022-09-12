@@ -32,6 +32,7 @@ importers:
   apps/cars:
     specifiers:
       '@obelix/button': workspace:*
+      '@obelix/text-input': workspace:^1.0.0
       '@types/react': ^18.0.17
       '@types/react-dom': ^18.0.6
       '@vitejs/plugin-react': ^2.1.0
@@ -40,6 +41,7 @@ importers:
       vite: ^3.1.0
     dependencies:
       '@obelix/button': link:../../packages/Button
+      '@obelix/text-input': link:../../packages/TextInput
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
     devDependencies:
