@@ -11,6 +11,7 @@ importers:
   apps/accounts:
     specifiers:
       '@obelix/button': workspace:*
+      '@obelix/form': workspace:*
       '@obelix/text-confirm': workspace:*
       '@types/react': ^18.0.17
       '@types/react-dom': ^18.0.6
@@ -20,6 +21,7 @@ importers:
       vite: ^3.1.0
     dependencies:
       '@obelix/button': link:../../packages/Button
+      '@obelix/form': link:../../packages/Form
       '@obelix/text-confirm': link:../../packages/TextConfirm
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
@@ -78,6 +80,16 @@ importers:
     dependencies:
       react: 18.2.0
       typescript: 4.8.3
+
+  packages/Form:
+    specifiers:
+      '@obelix/button': workspace:^1.0.0
+      '@obelix/text-input': workspace:^1.0.0
+      react: ^18.2.0
+    dependencies:
+      '@obelix/button': link:../Button
+      '@obelix/text-input': link:../TextInput
+      react: 18.2.0
 
   packages/TextConfirm:
     specifiers:

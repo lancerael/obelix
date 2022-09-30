@@ -1,22 +1,20 @@
 import { useState } from "react"
-import { TextConfirm } from "@obelix/text-confirm"
-import Button from "@obelix/button"
+import { Form } from "@obelix/form"
 
 /*
   CreatedDate, Type, Key, ID
 */
 
+const schema = {
+	make: { label: "Make", type: "text" },
+	colour: { label: "Colour", type: "text" },
+	doors: { label: "Doors", type: "text" },
+	reg: { label: "Registration", type: "text" },
+	year: { label: "Year", type: "text" },
+}
+
 const Accounts = () => {
-	const [key, setKey] = useState("")
-	return (
-		<div>
-			Key: {key}
-			<div>
-				<TextConfirm value={key} updateValue={(value) => setKey(value)} />
-			</div>
-			<Button onClick={() => {}}>Submit form</Button>
-		</div>
-	)
+	return <Form schema={schema} />
 }
 
 export default Accounts

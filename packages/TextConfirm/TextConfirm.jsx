@@ -27,4 +27,4 @@ export const TextConfirm = ({ value, updateValue }) => {
 	)
 }
 
-export default TextInput
+export default TextConfirm

@@ -27,11 +27,13 @@ const Cars = () => {
 				<form>
 					{carsArray.map((item) => {
 						const labelTransformed = item[0].toUpperCase() + item.slice(1)
-						return <TextInput label={labelTransformed} key={item} name={item} onChange={handleChange} value={cars[item]} />
+						return (
+							<TextInput label={labelTransformed} key={item} name={item} onChange={handleChange} value={cars[item]} />
+						)
 					})}
 				</form>
 			</div>
-
+			-
 			<Button
 				onClick={(e) => {
 					e.preventDefault()
@@ -43,5 +45,3 @@ const Cars = () => {
 		</div>
 	)
 }
-
-export default Cars

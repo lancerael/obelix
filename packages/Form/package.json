@@ -1,0 +1,17 @@
+{
+	"name": "@obelix/form",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@obelix/button": "workspace:^1.0.0",
+		"@obelix/text-input": "workspace:^1.0.0",
+		"react": "^18.2.0"
+	}
+}
